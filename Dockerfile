@@ -1,6 +1,6 @@
 #!/usr/bin/env docker
 
-FROM visanalyticskit/base:latest
+FROM visanalyticskit/vakserver_base:latest
 MAINTAINER visanalyticskit@gmail.com
 
 # remove curl because there seem to be conflicts because cb-server ships with curl
